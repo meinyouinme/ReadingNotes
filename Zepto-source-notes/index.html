@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="outer">
+    <p id="inner">click me</p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+</div>
+<script src="zepto-1.2.0.js"></script>
+<script>
+    $('p').each(function(){
+        $(this).addClass('on')
+    })
+</script>
+</body>
+</html>
